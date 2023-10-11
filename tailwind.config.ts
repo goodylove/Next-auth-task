@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "button-gradient":
+          "linear-gradient(to left, rgba(144, 58, 255, 0.7),rgba(254, 52, 185, 1))",
+      },
+      fontFamily: {
+        Gladiora: ["var(--font-gladiora)", "sans-serif"],
+        Inter: ["var(--font-inter)", "sans-serif"],
+        Hanken: ["var(--font-hanken)", "sans-serif"],
       },
     },
   },
