@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Button from "../Button";
 
-import { useRouter  redirect} from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const [email, setEmail] = React.useState("");
