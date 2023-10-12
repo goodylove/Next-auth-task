@@ -10,7 +10,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Button from "./../Button/index";
 import { CurrentUserProps } from "@/types";
-import Logo from "@/public/topibro-logo2.png";
 
 export default function Register() {
   const [formatData, setFormData] = React.useState<CurrentUserProps>({
@@ -49,12 +48,11 @@ export default function Register() {
 
   return (
     <>
-      <section className="flex justify-center  w-full  items-center h-screen  px-3   bg-white  md:bg-[#216D5E]  ">
+      <section className="flex justify-center  w-full  items-center h-screen  px-3 bg-[#216D5B]  ">
         <div className="w-[500px] flex  flex-col justify-center">
-          <Image src={Logo} alt="logo" className="w-[300px] md:hidden" />
           <form
             onSubmit={handleSUbmit}
-            className=" max-h-[400px]   mt-20 gap-2  w-[100%]  bg-[#216D5E]   rounded-md  py-2 px-3  justify-center items-center  flex flex-col   border-[1px] shadow-2xl  "
+            className=" max-h-[400px]   mt-20 gap-2  w-[100%]  rounded-md  py-2 px-3  justify-center items-center  flex flex-col   border-[1px] shadow-2xl "
           >
             <div className="flex flex-col gap-1 w-full py-2">
               <label htmlFor="name" className="font-Inter">
@@ -105,8 +103,9 @@ export default function Register() {
             </Button>
 
             <p className="flex text-center w-full justify-center py-2 text-[12px]">
-              Already have an acount ?
+              Already have an acount ?{" "}
               <Link href="/auth/login" className="pl-1 hover:underline">
+                {" "}
                 Login
               </Link>
             </p>
