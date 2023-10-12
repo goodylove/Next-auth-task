@@ -77,7 +77,7 @@ export default function Login() {
               />
             </div>
 
-            <Button className="btn  w-full p-2 mt-5 rounded font-Inter text-[15px] font-[800]   text-[#fff]">
+            <Button className="btn  w-full p-2 mt-5 rounded font-Inter text-[15px] font-[800]   ">
               Login
             </Button>
 
