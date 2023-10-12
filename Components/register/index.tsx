@@ -98,7 +98,7 @@ export default function Register() {
               />
             </div>
 
-            <Button className="btn w-full p-2 mt-5 rounded font-Inter font-[800] text-[14px]  text-[#fff]">
+            <Button className="btn w-full p-2 mt-5 rounded font-Inter font-[800] text-[14px] ">
               Register
             </Button>
 
