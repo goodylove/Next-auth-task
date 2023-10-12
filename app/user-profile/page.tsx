@@ -10,11 +10,14 @@ import Image from "next/image";
 
 function UserProfile() {
   const router = useRouter();
-  const userInfo = localStorage.getItem("user");
 
   let getUser;
-  if (userInfo !== null) {
-    getUser = JSON.parse(userInfo);
+
+  if (typeof window !== "undefined") {
+    const userInfo = localStorage.getItem("user");
+    if (userInfo !== null) {
+      getUser = JSON.parse(userInfo);
+    }
   }
 
   const handleLogOut = () => {
