@@ -49,7 +49,7 @@ export default function Login() {
             className=" max-h-[400px]  gap-1 w-[100%]  mt-20 rounded-md   login   bg-[#216D5B]  justify-center items-center  flex flex-col    shadow-2xl"
           >
             <div className="flex flex-col gap-1 w-full py-1">
-              <label htmlFor="email" className="font-Inter">
+              <label htmlFor="email" className="font-Inter text-white">
                 Email
               </label>
               <input
@@ -64,7 +64,7 @@ export default function Login() {
             </div>
 
             <div className="flex flex-col gap-1  w-full py-1">
-              <label htmlFor="password" className="font-Inter">
+              <label htmlFor="password" className="font-Inter text-white">
                 Password
               </label>
               <input
@@ -81,7 +81,7 @@ export default function Login() {
               Login
             </Button>
 
-            <p className="flex text-center w-full justify-center py-2 mt-2 text-[12px]">
+            <p className="flex text-center w-full justify-center py-2 mt-2 text-[12px] text-white">
               Don't have an account ?
               <Link href="/auth/register" className="pl-1 hover:underline">
                 {" "}

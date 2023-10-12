@@ -55,7 +55,7 @@ export default function Register() {
             className=" max-h-[400px]   mt-20 gap-2  w-[100%]  rounded-md  login  justify-center items-center  flex flex-col   border-[1px] shadow-2xl  bg-[#216D5B] "
           >
             <div className="flex flex-col gap-1 w-full py-2">
-              <label htmlFor="name" className="font-Inter">
+              <label htmlFor="name" className="font-Inter text-white">
                 Name
               </label>
               <input
@@ -70,7 +70,7 @@ export default function Register() {
             </div>
 
             <div className="flex flex-col gap-1 w-full py-2">
-              <label htmlFor="email" className="font-Inter">
+              <label htmlFor="email" className="font-Inter text-white">
                 Email
               </label>
               <input
@@ -85,7 +85,7 @@ export default function Register() {
             </div>
 
             <div className="flex flex-col gap-1  w-full py-2">
-              <label htmlFor="password" className="font-Inter">
+              <label htmlFor="password" className="font-Inter text-white">
                 Password
               </label>
               <input
@@ -102,7 +102,7 @@ export default function Register() {
               Register
             </Button>
 
-            <p className="flex text-center w-full justify-center py-2 text-[12px]">
+            <p className="flex text-center w-full justify-center py-2 text-[12px] text-white">
               Already have an acount ?{" "}
               <Link href="/auth/login" className="pl-1 hover:underline">
                 {" "}
