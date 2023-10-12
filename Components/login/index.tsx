@@ -46,7 +46,7 @@ export default function Login() {
         <div className="w-[400px] flex  justify-center ">
           <form
             onSubmit={handleLogin}
-            className=" max-h-[400px]  gap-1 w-[100%]  mt-20 rounded-md  py-2 px-3   bg-[#216D5B]  justify-center items-center  flex flex-col  border-[1px]  shadow-2xl"
+            className=" max-h-[400px]  gap-1 w-[100%]  mt-20 rounded-md   p-[10px]   bg-[#216D5B]  justify-center items-center  flex flex-col    shadow-2xl"
           >
             <div className="flex flex-col gap-1 w-full py-1">
               <label htmlFor="email" className="font-Inter">
