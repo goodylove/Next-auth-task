@@ -16,6 +16,12 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.login {
+  padding: 10px;
+}
+.btn {
+  background-color: black;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
