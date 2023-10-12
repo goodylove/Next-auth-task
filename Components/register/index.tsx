@@ -48,11 +48,11 @@ export default function Register() {
 
   return (
     <>
-      <section className="flex justify-center  w-full  items-center h-screen  px-3 bg-[#216D5B]  ">
+      <section className="flex justify-center  w-full  items-center h-screen  px-3 bg-[#fff]  ">
         <div className="w-[500px] flex  flex-col justify-center">
           <form
             onSubmit={handleSUbmit}
-            className=" max-h-[400px]   mt-20 gap-2  w-[100%]  rounded-md  py-2 px-3  justify-center items-center  flex flex-col   border-[1px] shadow-2xl "
+            className=" max-h-[400px]   mt-20 gap-2  w-[100%]  rounded-md  py-2 px-3  justify-center items-center  flex flex-col   border-[1px] shadow-2xl  bg-[#216D5B] "
           >
             <div className="flex flex-col gap-1 w-full py-2">
               <label htmlFor="name" className="font-Inter">
