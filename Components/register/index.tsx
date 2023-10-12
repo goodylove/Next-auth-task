@@ -105,9 +105,8 @@ export default function Register() {
             </Button>
 
             <p className="flex text-center w-full justify-center py-2 text-[12px]">
-              Already have an acount ?{" "}
+              Already have an acount ?
               <Link href="/auth/login" className="pl-1 hover:underline">
-                {" "}
                 Login
               </Link>
             </p>

@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 import WithAuth from "@/Components/WithAuth";
 import Button from "./../../Components/Button/index";
-import { useRouter } from "next/navigation";
 import UserImg from "@/public/user-2.jpg";
-import Image from "next/image";
 
 function UserProfile() {
   const router = useRouter();

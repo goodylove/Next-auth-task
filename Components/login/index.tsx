@@ -43,6 +43,7 @@ export default function Login() {
       }
     }
   };
+
   return (
     <>
       <section className="flex justify-center  w-full  items-center h-screen   bg-white px-3 md:bg-[#216D5E]">
@@ -88,8 +89,7 @@ export default function Login() {
             <p className="flex text-center w-full justify-center py-2 mt-2 text-[12px]">
               Don't have an account ?
               <Link href="/auth/register" className="pl-1 hover:underline">
-                {" "}
-                Register{" "}
+                Register
               </Link>
             </p>
           </form>
