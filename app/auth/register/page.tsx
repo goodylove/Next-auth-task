@@ -1,14 +1,11 @@
-"use client"
+"use client";
+
+import React from "react";
 
 import WithOutAuth from "@/Components/WithOutAuth";
 import Register from "@/Components/register";
-import React from "react";
 
 function RegisterPage() {
-  return (
-    <>
-      <Register />
-    </>
-  );
+  return <Register />
 }
 export default WithOutAuth(RegisterPage);
