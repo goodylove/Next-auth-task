@@ -1,6 +1,7 @@
-import Button from "@/Components/Button";
 import Link from "next/link";
 import Image from "next/image";
+
+import Button from "@/Components/Button";
 import TopiBroImage from "@/public/topibro-logo2.png";
 import LearnImage from "@/public/Frame 24.png";
 
@@ -17,7 +18,7 @@ export default function Home() {
           </ul>
         </div>
         <div>
-          <Button className=" text-black p-2 mt-5 rounded font-[500] font-Hanken shadow-2xl border-2 mx-3 ">
+          <Button className=" text-black p-2 mt-5 rounded font-[500] font-Hanken shadow-2xl border-1  mx-3 ">
             <Link href="/auth/login">Login</Link>
           </Button>
           <Button className=" text-white p-2 mt-5 rounded font-[500] font-Hanken bg-[#216D5B]">
@@ -39,7 +40,7 @@ export default function Home() {
               made easy.
             </p>
             <p className="py-2 mt-5 text-[12px] text-gray-600">
-              Practice your English and learn
+              Practice your skills and learn
               <br /> new things with the platform.
             </p>
             <Button className=" text-white p-2 mt-5 rounded font-[500] font-Hanken   bg-[#216D5B] ">

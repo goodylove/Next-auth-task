@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+
 import { useRouter, redirect } from "next/navigation";
 
 function WithOutAuth(Component: any) {

@@ -42,11 +42,11 @@ export default function Login() {
   };
   return (
     <>
-      <section className="flex justify-center  w-full  items-center h-screen  bg-[#216D5B] ">
-        <div className="w-[350px] flex justify-center ">
+      <section className="flex justify-center  w-full  items-center h-screen  bg-[#216D5B]  px-3">
+        <div className="w-[400px] flex justify-center ">
           <form
             onSubmit={handleLogin}
-            className=" max-h-[400px]  gap-1 w-[100%]  mt-20 rounded-md  py-2 px-3  justify-center items-center  flex flex-col   border-[0.1px] border-[#d434fe] shadow-2xl"
+            className=" max-h-[400px]  gap-1 w-[100%]  mt-20 rounded-md  py-2 px-3  justify-center items-center  flex flex-col  border-[1px]  shadow-2xl"
           >
             <div className="flex flex-col gap-1 w-full py-1">
               <label htmlFor="email" className="font-Inter">
@@ -59,7 +59,7 @@ export default function Login() {
                 onChange={(e) => setEmail(e.target.value)}
                 name="email"
                 placeholder="Enter Email"
-                className="p-2 rounded w-full text-black"
+                className="p-2 rounded w-full text-black outline-none"
               />
             </div>
 
@@ -68,20 +68,20 @@ export default function Login() {
                 Password
               </label>
               <input
-                type="text"
+                type="password"
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 name="password"
-                className="p-2 rounded w-full text-black"
+                className="p-2 rounded w-full text-black outline-none"
               />
             </div>
 
-            <Button className="bg-white w-full p-2 mt-5 rounded font-Inter   text-[#216D5B]">
+            <Button className="bg-white w-full p-2 mt-5 rounded font-Inter text-[15px] font-[500]   text-[#216D5B]">
               Login
             </Button>
 
-            <p className="flex text-center w-full justify-center py-2">
+            <p className="flex text-center w-full justify-center py-2 mt-2">
               Don't have an account ?
               <Link href="/auth/register"> Register </Link>
             </p>
